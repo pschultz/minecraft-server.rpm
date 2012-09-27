@@ -1,0 +1,4 @@
+*.rpm
+*.jar
+inst_root/etc/init.d/minecraft_server
+inst_root/etc/sysconfig/minecraft_server
