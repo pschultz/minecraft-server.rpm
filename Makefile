@@ -54,4 +54,4 @@ clean:
 	rm -f $(PACKAGE)
 
 distclean: clean
-	rm -rf $(JARBALL) $(INSTALL_ROOT)/$(INST_PREFIX)
+	rm -rf $(JARBALL) $(INSTALL_ROOT)/$(INST_PREFIX) $(INSTALL_ROOT)/$(INIT_SCRIPT) $(INSTALL_ROOT)/$(SYSCONFIG)
