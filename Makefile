@@ -1,4 +1,4 @@
-NAME    := minecraft_server
+NAME    := minecraft-server
 VERSION := 1.3.2
 ARCH    := noarch
 OS      := el6
@@ -8,7 +8,7 @@ DESCRIPTION  := [pschultz] Minecraft is a game about placing blocks to build any
 MAINTAINER   := Peter Schultz <schultz.peter@hotmail.com>
 
 INSTALL_ROOT := inst_root
-JARBALL      := $(NAME).jar
+JARBALL      := minecraft_server.jar
 SOURCE_URL   := https://s3.amazonaws.com/MinecraftDownload/launcher/$(JARBALL)
 PACKAGE      := $(NAME)-$(VERSION)-$(ITERATION).$(OS).$(ARCH).rpm
 
