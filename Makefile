@@ -9,7 +9,7 @@ MAINTAINER   := Peter Schultz <schultz.peter@hotmail.com>
 
 INSTALL_ROOT := inst_root
 JARBALL      := $(NAME).jar
-SOURCE_URL   := http://minecraft.net/download/$(NAME).jar
+SOURCE_URL   := https://s3.amazonaws.com/MinecraftDownload/launcher/$(JARBALL)
 PACKAGE      := $(NAME)-$(VERSION)-$(ITERATION).$(OS).$(ARCH).rpm
 
 INST_PREFIX  := opt/minecraft
