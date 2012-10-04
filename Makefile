@@ -3,7 +3,7 @@ VERSION := 1.3.2
 ARCH    := noarch
 OS      := el6
 
-ITERATION    := 2
+ITERATION    := 3
 DESCRIPTION  := [pschultz] Minecraft is a game about placing blocks to build anything you can imagine. At night monsters come out, make sure to build a shelter before that happens.
 MAINTAINER   := Peter Schultz <schultz.peter@hotmail.com>
 
